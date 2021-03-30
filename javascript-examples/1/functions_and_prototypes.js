@@ -6,7 +6,7 @@ function Employee(name, designation, yearOfBirth){
 
 // creating calculateAge() method to the Prototype property 
 Employee.prototype.calculateAge= function(){  
-    console.log('The current age is: '+(2019- this.yearOfBirth)); 
+    console.log('The current age is: '+(2021- this.yearOfBirth)); 
 } 
 console.log(Employee.prototype); 
   
