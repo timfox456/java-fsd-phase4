@@ -41,7 +41,11 @@ On the front end, frameworks like bootstrap, angular, react, jquery, etc are all
 4. Spring Data JPA
 5. JSP
 6. Servlets
-7. Bootstrap
+7. BootstraCREATE TABLE `genre` (
+  `id` bigint NOT NULL,
+  `name` varchar(255) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_cip
 
 
 ### Notes
@@ -55,6 +59,43 @@ insert into album (id, name, artist, price, release_date, genre_id) VALUES (1, "
 insert into album (id, name, artist, price, release_date, genre_id) VALUES (2, "Traveler", "Chris Stapleton", 9.99, '2020-01-01', 2);
 insert into music (id, name, price, track_number, album_id) VALUES (1, "My Tractor is Awesome", 0.99, 1, 1);
 insert into music (id, name, price, track_number, album_id) VALUES (1, "Starting Over", 0.99, 1, 2);
+```
+
+And here is the create table syntax I used:
+
+```sql
+CREATE TABLE `album` (
+  `id` bigint NOT NULL,
+  `name` varchar(255) DEFAULT NULL,
+  `artist` varchar(255) DEFAULT NULL,
+  `price` decimal(19,2) DEFAULT NULL,
+  `release_date` datetime(6) DEFAULT NULL,
+  `genre_id` bigint DEFAULT NULL,
+  PRIMARY KEY (`id`),
+  KEY `FKmhihrmrx2f1mhqtrbagwru45g` (`genre_id`),
+  CONSTRAINT `FKmhihrmrx2f1mhqtrbagwru45g` FOREIGN KEY (`genre_id`) REFERENCES `genre` (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+
+CREATE TABLE `genre` (
+  `id` bigint NOT NULL,
+  `name` varchar(255) DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+CREATE TABLE `music` (
+  `id` bigint NOT NULL,
+  `name` varchar(255) DEFAULT NULL,
+  `price` decimal(19,2) DEFAULT NULL,
+  `track_number` int NOT NULL,
+  `album_id` bigint DEFAULT NULL,
+  PRIMARY KEY (`id`),
+  KEY `FK1gpg5o9xo7gkxeietx17guu2g` (`album_id`),
+  CONSTRAINT `FK1gpg5o9xo7gkxeietx17guu2g` FOREIGN KEY (`album_id`) REFERENCES `album` (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+
+
+
 ```
 
 ### Due Date
