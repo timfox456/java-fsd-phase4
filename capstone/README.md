@@ -31,6 +31,8 @@ dependency or API which you feel may be helpful is fine to use, provided you hav
 
 One could implement the backend as a Web (i.e., Spring MVC) or a REST project, either is acceptable.
 
+Spring Security is one option to implement login/authentication but not required, other solutions can be used.
+
 These are merely suggestions and not necessarily a requirement for using them. 
 
 On the front end, frameworks like bootstrap, angular, react, jquery, etc are all acceptable (and encouraged) to use.
@@ -41,11 +43,7 @@ On the front end, frameworks like bootstrap, angular, react, jquery, etc are all
 4. Spring Data JPA
 5. JSP
 6. Servlets
-7. BootstraCREATE TABLE `genre` (
-  `id` bigint NOT NULL,
-  `name` varchar(255) DEFAULT NULL,
-  PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_cip
+7. Bootstrap 
 
 
 ### Notes
