@@ -24,6 +24,7 @@ A link to the original PDF (with pictures) is [here](./doc/capstone.pdf).
  * Remove a product from a category or delete the product from the catalog 
  * Manage orders by updating their status
 
+
 ### Recommended technologies:
 
 Any technologies or frameworks are acceptable for your project, although the backand should be part of the java ecosystem.  Any
@@ -47,6 +48,17 @@ On the front end, frameworks like bootstrap, angular, react, jquery, etc are all
 
 
 ### Notes
+
+
+Here are the some of the entities that we might use for this:
+ * Music
+ * Genre
+ * Album
+ * Product
+ * Category
+ * Order
+ * Customer/User
+ * ShoppingCart ??
 
 Here is some of the SQL That I used to pre-load some data.
 

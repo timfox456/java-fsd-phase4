@@ -11,7 +11,7 @@ import java.util.Date;
 @Data
 public class Music {
     @Id
-    @GeneratedValue(strategy= GenerationType.AUTO)
+    @GeneratedValue(strategy= GenerationType.IDENTITY)
     private Long id;
 
     private String name;
