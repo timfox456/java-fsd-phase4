@@ -4,7 +4,7 @@
 
 ### Examples
 
-* [Boostrap](./boostrap-examples)
+* [Bootstrap](./bootstrap-examples)
 * [Javascript](./javascript-examples)
 
 
