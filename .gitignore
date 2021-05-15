@@ -20,6 +20,7 @@ target/
 *.iws
 *.iml
 *.ipr
+*.code-workspace
 
 ### NetBeans ###
 /nbproject/private/
@@ -37,3 +38,4 @@ build/
 DS_Store
 .settings
 .DS_Store
+
