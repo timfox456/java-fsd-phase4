@@ -55,5 +55,4 @@ visual experience for the user.
 
 ### Due Date
 
-2021-04-01
 

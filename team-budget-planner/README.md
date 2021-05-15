@@ -93,5 +93,4 @@ var myDataTest = localStorage.getItem("myData")
 
 #### Due Date
 
-2021-04-05
 
