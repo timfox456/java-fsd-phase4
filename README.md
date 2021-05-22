@@ -4,11 +4,16 @@
 
 ### Examples
 
-* [Bootstrap](./bootstrap-examples)
-* [Javascript](./javascript-examples)
+ * [Bootstrap](./bootstrap-examples)
+ * [Javascript](./javascript-examples)
 
 
 ### Projects
 
-* [Project 1: Restaurant](./restaurant-frontend)
-* [Project 2: Team Budget Planner](./team-budget-planner) 
+ * [Project 1: Restaurant](./restaurant-frontend)
+ * [Project 2: Team Budget Planner](./team-budget-planner) 
+
+
+## Final Project
+
+ * [Final Project: MyPortfolio](./myportfolio-project)
