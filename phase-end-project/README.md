@@ -25,7 +25,8 @@ You need to use these technologies in your project.  You must use HTML, CSS, Jav
  
 Database Technologies:  You can either use MySQL as you did in phase 3, or MongoDB which you learned in the self study.
 
-Server Side Technologies: You may use any server side technology that we have already covered in this course for the server-side component: e.g., Spring, Thymleaf, JSP, etc.
+Server Side Technologies: Try to minimize the work done on the server side. It is possible, but not requrired to do EVERYTHING on the client.  
+You may use any server side technology that we have already covered in this course for the server-side component: e.g., Spring, Thymleaf, JSP, etc.
 
 
 
