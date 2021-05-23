@@ -12,8 +12,9 @@
 
  * [Project 1: Restaurant](./restaurant-frontend)
  * [Project 2: Team Budget Planner](./team-budget-planner) 
-
+ * [Project 3: MyPortfolio](./myportfolio-project)
 
 ## Final Project
 
- * [Final Project: MyPortfolio](./myportfolio-project)
+ * [Final Project](./phase-end-project)
+
