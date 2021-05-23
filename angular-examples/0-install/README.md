@@ -29,13 +29,13 @@ Navigate to this folder (`angular-examples/0-install/`) and run the following:
 
 
 ```bash
-ng new my_app 
+ng new my-app 
 ```
 
 This will ask some questions about your new app, which you can jsut accept
 
 ```bash
-cd my_app
+cd my-app
 ng serve --open
 ```
 
