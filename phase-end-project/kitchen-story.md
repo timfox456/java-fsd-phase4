@@ -19,10 +19,8 @@ Once a person selects an item to purchase, they will be redirected to the list o
 
 For the above features to work, there will be an admin backend with the following features:
 
-Admin login page where admin can change password after login if he wants to
-
-A master list of food items available for purchase
-
-A functionality to add or remove food items
+ * Admin login page where admin can change password after login if he wants to
+ * A master list of food items available for purchase
+ * A functionality to add or remove food items
 
      
