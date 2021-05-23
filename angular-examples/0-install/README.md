@@ -19,7 +19,7 @@ Verify the version with
 
 
 ```bash
-ng-version
+ng version
 ```
 
 
